@@ -73,17 +73,12 @@ export default function Home() {
         </section>
         <section>
           <div>
-            <h3 className="text-3xl py-1 dark:text-white ">Services I offer</h3>
+            <h3 className="text-3xl py-1 dark:text-white ">About me & my work</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-              Since the beginning of my journey as a freelance designer and
-              developer, I've done remote work for
-              <span className="text-teal-500"> agencies </span>
-              consulted for <span className="text-teal-500">startups </span>
-              and collaborated with talanted people to create digital products
-              for both business and consumer use.
+              Since the beginning of my journey as a developer, I've created cross-industry websites for different-sized businesses. This gives a better idea as to what is best for your website and industry, coming from my experience.
             </p>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-            I offer business-tailored E-commerce web development. This essentially means that you own the code you get from me, instead of trusting with your data to platforms, like Wordpress or Wix.
+            I offer business-tailored E-commerce web development. This essentially means that you own the code you get from me, instead of trusting with your data to platforms, like Wordpress or Wix. Plus, I only charge a one-off fee for the development!
             </p>
           </div>
           <div className="lg:flex gap-10">
@@ -93,7 +88,7 @@ export default function Home() {
                 Unique User Experiences
               </h3>
               <p className="py-2">
-                Loading your E-commerce with fiery designs and powerful progrtamming logic!
+                Loading your E-commerce with fiery designs and powerful business logic!
               </p>
               <h4 className="py-4 text-teal-600">My Stack</h4>
               <p className="text-gray-800 py-1">MongoDB</p>
@@ -108,26 +103,26 @@ export default function Home() {
                 You say - I code.
               </h3>
               <p className="py-2">
-                Have an idea for your next great website? Let's make it real!
+                Have a website in mind? Let's make it real!
               </p>
-              <h4 className="py-4 text-teal-600">My process in 4 simple steps:</h4>
+              <h4 className="py-4 text-teal-600">My process in 5 simple steps:</h4>
               <p className="text-gray-800 py-1">Design</p>
               <p className="text-gray-800 py-1">Review</p>
               <p className="text-gray-800 py-1">Code</p>
+              <p className="text-gray-800 py-1">Review</p>
               <p className="text-gray-800 py-1">Publish</p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
               <Image src={consulting} width={100} height={100} />
-              <h3 className="text-lg font-medium pt-8 pb-2 ">Receive payments though your website</h3>
+              <h3 className="text-lg font-medium pt-8 pb-2 ">Reviews on each step</h3>
               <p className="py-2">
-                Are you interested in feedback for your current project? I can
-                give you tips and tricks to level it up.
+                Stay on top of the things while having your project developed. My review process is designed to catch any irrelevancies while developing your website!
               </p>
-              <h4 className="py-4 text-teal-600">Payment gateways, like</h4>
-              <p className="text-gray-800 py-1">Stripe</p>
-              <p className="text-gray-800 py-1">SumUp</p>
-              <p className="text-gray-800 py-1">PayPal</p>
-              <p className="text-gray-800 py-1">and other</p>
+              <h4 className="py-4 text-teal-600">What reviews do?</h4>
+              <p className="text-gray-800 py-1">Save your time</p>
+              <p className="text-gray-800 py-1">Allow to catch errors whilst they're tiny</p>
+              <p className="text-gray-800 py-1">Improvements in real time</p>
+              <p className="text-gray-800 py-1">Some further ideas can be implemented as we go along the development</p>
             </div>
           </div>
         </section>
@@ -136,14 +131,10 @@ export default function Home() {
             <h3 className="text-3xl py-1 dark:text-white ">Portofolio</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
               Ever since I started as web developer over 6 years ago, I made a promise to myself - to always produce quality code that would be reusable in a few years' time, and I kept the promise.
-              That motto is the reason my websites from 2017 are still up and running!
-              <span className="text-teal-500"> agencies </span>
-              consulted for <span className="text-teal-500">startups </span>
-              and collaborated with talanted people to create digital products
-              for both business and consumer use.
+              This lets me and any other developer to maintain my websites efficiently which is beneficial and less money for businesses. A well-programmed website is always cheaper than one that isn't.
             </p>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-              Take a look at some of my favourite projects I've done in the past!
+              Take a look at some of my projects I'm most proud of!
             </p>
           </div>
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
