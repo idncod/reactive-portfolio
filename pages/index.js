@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Link from 'next/link';
 import { AiFillLinkedin } from "react-icons/ai";
 import { BsFillMoonStarsFill } from "react-icons/bs";
 import { useState } from "react";
