@@ -145,6 +145,8 @@ export default function Home() {
               />
             </div>
             <div className="basis-1/3 flex-1">
+            <Link href="https://github.com/idncod/ipmatcher_csharp">
+              <a target="_blank" rel="noopener noreferrer">
               <Image
                 className="rounded-lg object-cover"
                 width={"100%"}
@@ -152,6 +154,8 @@ export default function Home() {
                 layout="responsive"
                 src={web2}
               />
+              </a>
+              </Link>
             </div>
             <div className="basis-1/3 flex-1">
               <Image
@@ -172,7 +176,7 @@ export default function Home() {
               />
             </div>
             <div className="basis-1/3 flex-1">
-              <Link href="https://github.com/idncod/ipmatcher_csharp">
+              <Link href="https://beautybe.uk">
               <a target="_blank" rel="noopener noreferrer">
               <Image
                 className="rounded-lg object-cover"
