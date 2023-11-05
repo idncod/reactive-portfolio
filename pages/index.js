@@ -59,7 +59,7 @@ export default function Home() {
               Viola L
             </h2>
             <h3 className="text-2xl py-2 dark:text-white md:text-3xl">
-              Full-Stack Developer.
+              SOFTWARE ENGINEER
             </h3>
             <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl">
               Developing E-commerce websites that drive sales to your business!
@@ -85,24 +85,18 @@ export default function Home() {
             </p>
           </div>
           <div className="lg:flex gap-10">
-            <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
+            <div className="text-left shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
               <Image src={design} width={100} height={100} />
-              <h3 className="text-lg font-medium pt-8 pb-2  ">
-                Unique User Experiences
+              <h3 className="text-lg font-medium font-bold pt-8 pb-2  ">
+              Strategic System Design
               </h3>
               <p className="py-2">
-                Loading your E-commerce with fiery designs and powerful business logic!
-              </p>
-              <h4 className="py-4 text-teal-600">My Stack</h4>
-              <p className="text-gray-800 py-1">MongoDB</p>
-              <p className="text-gray-800 py-1">Express.js</p>
-              <p className="text-gray-800 py-1">React.js</p>
-              <p className="text-gray-800 py-1">Node.js</p>
-              <p className="text-gray-800 py-1">and other</p>
+
+              Implementing serverless architecture with AWS Lambda, orchestrating data flow using Apache Kafka, and integrating GraphQL subscriptions for real-time communication. Leveraging Docker and Kubernetes for containerization and orchestration, alongside Istio for service mesh management, ensuring seamless scaling, load balancing, and security in distributed microservices ecosystems. Applying advanced algorithms for data processing and AI-driven insights, optimizing performance and enhancing user experiences in intricate, data-intensive applications.</p>
             </div>
-            <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
+            <div className="text-left shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
               <Image src={code} width={100} height={100} />
-              <h3 className="text-lg font-medium pt-8 pb-2 ">
+              <h3 className="text-lg font-medium font-bold pt-8 pb-2 ">
                 You say - I code.
               </h3>
               <p className="py-2">
@@ -115,9 +109,9 @@ export default function Home() {
               <p className="text-gray-800 py-1">Review</p>
               <p className="text-gray-800 py-1">Publish</p>
             </div>
-            <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
+            <div className="text-left shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
               <Image src={consulting} width={100} height={100} />
-              <h3 className="text-lg font-medium pt-8 pb-2 ">Reviews on each step</h3>
+              <h3 className="text-lg font-medium font-bold pt-8 pb-2 ">Reviews on each step</h3>
               <p className="py-2">
                 Stay on top of the things while having your project developed. My review process is designed to catch any irrelevancies while developing your website!
               </p>
