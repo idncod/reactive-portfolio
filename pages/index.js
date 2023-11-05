@@ -97,15 +97,9 @@ export default function Home() {
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
               <Image src={code} width={100} height={100} />
               <h3 className="text-lg font-medium font-bold pt-8 pb-2 ">
-              Collaborative Ideation and Execution              </h3>
+              Collaborative Ideation and Execution</h3>
               <p className="py-2">
               Embarking on the journey of translating your ideas into digital masterpieces, I engage in a comprehensive process that spans from strategic design to seamless deployment. Beginning with strategic design, I meticulously craft intuitive interfaces that prioritize user experiences. Following this, each iteration undergoes a rigorous review, ensuring precision and catching errors before they surface. Expert coding techniques are then employed, implementing robust solutions using cutting-edge technologies. This process is not linear; it's a constant loop of iterative refinement, where your feedback shapes the ongoing enhancements. Finally, the result is a seamless deployment, bringing your project to life with precision, passion, and a commitment to excellence.</p>
-              <h4 className="py-4 text-teal-600">My process in 5 simple steps:</h4>
-              <p className="text-gray-800 py-1">Design</p>
-              <p className="text-gray-800 py-1">Review</p>
-              <p className="text-gray-800 py-1">Code</p>
-              <p className="text-gray-800 py-1">Review</p>
-              <p className="text-gray-800 py-1">Publish</p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
               <Image src={consulting} width={100} height={100} />
@@ -119,11 +113,7 @@ export default function Home() {
           <div>
             <h3 className="text-3xl py-1 dark:text-white ">Featured work</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-              Ever since I started as web developer over 6 years ago, I made a promise to myself - to always produce quality code that would be reusable in a few years' time, and I kept the promise.
-              This lets me and any other developer to maintain my websites efficiently which is beneficial and less money for businesses. A well-programmed website is always cheaper than one that isn't.
-            </p>
-            <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-              Take a look at some of my projects I'm most proud of!
+            With over six years of seasoned expertise, my commitment extends to sculpting code that endures the sands of digital evolution. This journey simplifies the rigors of maintenance for fellow developers and offers strategic financial efficiencies for businesses. A meticulously crafted website, far from an expenditure, emerges as a strategic investment, weaving a tale of operational finesse and seamless adaptability, setting the stage for featured works ahead.
             </p>
           </div>
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
