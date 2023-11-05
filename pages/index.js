@@ -97,11 +97,9 @@ export default function Home() {
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
               <Image src={code} width={100} height={100} />
               <h3 className="text-lg font-medium font-bold pt-8 pb-2 ">
-                You say - I code.
-              </h3>
+              Collaborative Ideation and Execution              </h3>
               <p className="py-2">
-                Have a website in mind? Let's make it real!
-              </p>
+              Embarking on the journey of translating your ideas into digital masterpieces, I engage in a comprehensive process that spans from strategic design to seamless deployment. Beginning with strategic design, I meticulously craft intuitive interfaces that prioritize user experiences. Following this, each iteration undergoes a rigorous review, ensuring precision and catching errors before they surface. Expert coding techniques are then employed, implementing robust solutions using cutting-edge technologies. This process is not linear; it's a constant loop of iterative refinement, where your feedback shapes the ongoing enhancements. Finally, the result is a seamless deployment, bringing your project to life with precision, passion, and a commitment to excellence.              </p>
               <h4 className="py-4 text-teal-600">My process in 5 simple steps:</h4>
               <p className="text-gray-800 py-1">Design</p>
               <p className="text-gray-800 py-1">Review</p>
