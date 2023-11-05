@@ -62,8 +62,8 @@ export default function Home() {
               SOFTWARE ENGINEER
             </h3>
             <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl">
-              Developing E-commerce websites that drive sales to your business!
-            </p>
+
+            Architecting advanced E-commerce platforms, optimizing conversions, and maximizing revenue streams through innovative web solutions.            </p>
             <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
               <a href="https://www.linkedin.com/in/violettalykova/" rel="noreferrer">
               <AiFillLinkedin />
