@@ -85,7 +85,7 @@ export default function Home() {
             </p>
           </div>
           <div className="lg:flex gap-10">
-            <div className="text-left shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
+            <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
               <Image src={design} width={100} height={100} />
               <h3 className="text-lg font-medium font-bold pt-8 pb-2  ">
               Strategic System Design
@@ -94,7 +94,7 @@ export default function Home() {
 
               Implementing serverless architecture with AWS Lambda, orchestrating data flow using Apache Kafka, and integrating GraphQL subscriptions for real-time communication. Leveraging Docker and Kubernetes for containerization and orchestration, alongside Istio for service mesh management, ensuring seamless scaling, load balancing, and security in distributed microservices ecosystems. Applying advanced algorithms for data processing and AI-driven insights, optimizing performance and enhancing user experiences in intricate, data-intensive applications.</p>
             </div>
-            <div className="text-left shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
+            <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
               <Image src={code} width={100} height={100} />
               <h3 className="text-lg font-medium font-bold pt-8 pb-2 ">
                 You say - I code.
@@ -109,7 +109,7 @@ export default function Home() {
               <p className="text-gray-800 py-1">Review</p>
               <p className="text-gray-800 py-1">Publish</p>
             </div>
-            <div className="text-left shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
+            <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
               <Image src={consulting} width={100} height={100} />
               <h3 className="text-lg font-medium font-bold pt-8 pb-2 ">Reviews on each step</h3>
               <p className="py-2">
