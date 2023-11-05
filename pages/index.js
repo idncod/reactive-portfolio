@@ -196,9 +196,11 @@ export default function Home() {
           </div>
         </section>
         <footer className="text-black text-center py-4">
-  <p className="text-sm">
+          <Link href="/">
+  <p className="text-sm cursor-pointer">
     © {new Date().getFullYear()} idncod.
   </p>
+  </Link>
 </footer>
 
       </main>
