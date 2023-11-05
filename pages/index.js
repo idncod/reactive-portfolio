@@ -195,6 +195,12 @@ export default function Home() {
             </div>
           </div>
         </section>
+        <footer className="text-black text-center py-4">
+  <p className="text-sm">
+    © {new Date().getFullYear()} idncod.
+  </p>
+</footer>
+
       </main>
     </div>
   );
