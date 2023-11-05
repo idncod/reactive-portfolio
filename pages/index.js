@@ -99,7 +99,7 @@ export default function Home() {
               <h3 className="text-lg font-medium font-bold pt-8 pb-2 ">
               Collaborative Ideation and Execution              </h3>
               <p className="py-2">
-              Embarking on the journey of translating your ideas into digital masterpieces, I engage in a comprehensive process that spans from strategic design to seamless deployment. Beginning with strategic design, I meticulously craft intuitive interfaces that prioritize user experiences. Following this, each iteration undergoes a rigorous review, ensuring precision and catching errors before they surface. Expert coding techniques are then employed, implementing robust solutions using cutting-edge technologies. This process is not linear; it's a constant loop of iterative refinement, where your feedback shapes the ongoing enhancements. Finally, the result is a seamless deployment, bringing your project to life with precision, passion, and a commitment to excellence.              </p>
+              Embarking on the journey of translating your ideas into digital masterpieces, I engage in a comprehensive process that spans from strategic design to seamless deployment. Beginning with strategic design, I meticulously craft intuitive interfaces that prioritize user experiences. Following this, each iteration undergoes a rigorous review, ensuring precision and catching errors before they surface. Expert coding techniques are then employed, implementing robust solutions using cutting-edge technologies. This process is not linear; it's a constant loop of iterative refinement, where your feedback shapes the ongoing enhancements. Finally, the result is a seamless deployment, bringing your project to life with precision, passion, and a commitment to excellence.</p>
               <h4 className="py-4 text-teal-600">My process in 5 simple steps:</h4>
               <p className="text-gray-800 py-1">Design</p>
               <p className="text-gray-800 py-1">Review</p>
@@ -109,15 +109,9 @@ export default function Home() {
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
               <Image src={consulting} width={100} height={100} />
-              <h3 className="text-lg font-medium font-bold pt-8 pb-2 ">Reviews on each step</h3>
+              <h3 className="text-lg font-medium font-bold pt-8 pb-2 ">Strategic Iterative Feedback</h3>
               <p className="py-2">
-                Stay on top of the things while having your project developed. My review process is designed to catch any irrelevancies while developing your website!
-              </p>
-              <h4 className="py-4 text-teal-600">What reviews do?</h4>
-              <p className="text-gray-800 py-1">Save your time</p>
-              <p className="text-gray-800 py-1">Allow to catch errors whilst they're tiny</p>
-              <p className="text-gray-800 py-1">Improvements in real time</p>
-              <p className="text-gray-800 py-1">Some further ideas can be implemented as we go along the development</p>
+              In the realm of web development, attention to detail is paramount. Throughout the entire process, I provide strategic iterative feedback, ensuring that your project stays on the cutting edge. My meticulous review process is designed not just to catch errors but to unearth every opportunity for improvement. By scrutinizing each element, we save valuable time, detecting and rectifying potential issues while they're still in their infancy. Real-time refinements are made, fostering continuous enhancement and paving the way for seamless integration of additional innovative ideas as your project evolves. This dynamic feedback loop guarantees that your project not only meets but exceeds your expectations, resulting in a web experience that is both flawless and innovative.</p>
             </div>
           </div>
         </section>
