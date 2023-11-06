@@ -9,9 +9,11 @@ const Navbar = () => {
     <div className={darkMode ? "dark" : ""}>
     <div className="bg-white px-10 dark:bg-gray-900 md:px-20 lg:px-40">
     <nav className="py-4 py-10 mb-12 flex justify-between dark:text-white">
-      <a href="/">
+      <Link href="/">
+        <a>
         <h1 className="font-bold">idncod.</h1>
       </a>
+      </Link>
       <ul className="flex space-x-6 items-center">
       <li>
           <Link href="/blog">Blog</Link>
