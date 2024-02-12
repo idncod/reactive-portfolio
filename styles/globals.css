@@ -21,6 +21,14 @@ a {
 * {
   box-sizing: border-box;
 }
+/* 
+.blog-post-container {
+  border: 2px solid rgba(0, 0, 0, 0.1); 
+  border-radius: 8px; 
+  padding: 20px;
+  margin-bottom: 80px;
+  width: 500px;
+} */
 
 /* @font-face {
   font-family: 'Amaranth';

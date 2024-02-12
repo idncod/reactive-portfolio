@@ -1,17 +1,55 @@
+
+import { useEffect, useState } from 'react';
+import { firestore } from './firebase';
+
+const BlogPost = ({ title, content, date }) => {
+  console.log('Rendering BlogPost with props:', title, content, date);
+  const postDate = date.toDate();
+
+  return (
+    <div className="blog-post-container">
+      <h3>{title}</h3>
+      <p>{content}</p>
+      <p>{postDate.toLocaleDateString()}</p>
+    </div>
+  );
+};
+
 const Blog = () => {
-    return (
-      <div className="text-center flex flex-x-4">
-        <h1>Blog Page</h1>
-        <div className="lg:flex gap-10">
-        <h3>Title 1</h3>
-        <p>loremipsumdolor</p>
-        <h3>Title 1</h3>
-        <p>loremipsumdolor</p>
-        <h3>Title 1</h3>
-        <p>loremipsumdolor</p>
-        </div>
+  const [blogPosts, setBlogPosts] = useState([]);
+
+  useEffect(() => {
+    const fetchBlogPosts = async () => {
+      try {
+        const blogPostsSnapshot = await firestore.collection('blogPosts').get();
+        const fetchedBlogPosts = blogPostsSnapshot.docs.map(doc => ({
+          id: doc.id,
+          ...doc.data(),
+        }));
+        setBlogPosts(fetchedBlogPosts);
+      } catch (error) {
+        console.error('Error fetching blog posts:', error);
+      }
+    };
+
+    fetchBlogPosts();
+  }, []);
+
+  return (
+    <div className="blog-page">
+      <h1 className="text-center">Blog Page</h1>
+      <div className="blog-posts">
+        {blogPosts.map(post => (
+          <BlogPost
+            key={post.id}
+            title={post.title}
+            content={post.content}
+            date={post.date}
+          />
+        ))}
       </div>
-    );
-  };
-  
-  export default Blog;
+    </div>
+  );
+};
+
+export default Blog;
