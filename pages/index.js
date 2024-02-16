@@ -76,7 +76,7 @@ export default function Home() {
               </a>
             </div>
             <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
-              <Image src={deved} layout="fill" objectFit="cover" />
+              <Image src={deved} alt="" layout="fill" objectFit="cover" />
             </div>
           </div>
         </section>
@@ -92,7 +92,7 @@ export default function Home() {
           </div>
           <div className="lg:flex gap-10">
             <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
-              <Image src={design} width={100} height={100} />
+              <Image src={design} alt="" width={100} height={100} />
               <h3 className="text-lg font-medium font-bold pt-8 pb-2  ">
               Strategic System Design
               </h3>
@@ -101,14 +101,14 @@ export default function Home() {
               Implementing serverless architecture with AWS Lambda, orchestrating data flow using Apache Kafka, and integrating GraphQL subscriptions for real-time communication. Leveraging Docker and Kubernetes for containerization and orchestration, alongside Istio for service mesh management, ensuring seamless scaling, load balancing, and security in distributed microservices ecosystems. Applying advanced algorithms for data processing and AI-driven insights, optimizing performance and enhancing user experiences in intricate, data-intensive applications.</p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
-              <Image src={code} width={100} height={100} />
+              <Image src={code} alt="" width={100} height={100} />
               <h3 className="text-lg font-medium font-bold pt-8 pb-2 ">
               Collaborative Ideation and Execution</h3>
               <p className="py-2">
               Embarking on the journey of translating your ideas into digital masterpieces, I engage in a comprehensive process that spans from strategic design to seamless deployment. Beginning with strategic design, I meticulously craft intuitive interfaces that prioritize user experiences. Following this, each iteration undergoes a rigorous review, ensuring precision and catching errors before they surface. Expert coding techniques are then employed, implementing robust solutions using cutting-edge technologies. This process is not linear; it's a constant loop of iterative refinement, where your feedback shapes the ongoing enhancements. Finally, the result is a seamless deployment, bringing your project to life with precision, passion, and a commitment to excellence.</p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
-              <Image src={consulting} width={100} height={100} />
+              <Image src={consulting} alt="" width={100} height={100} />
               <h3 className="text-lg font-medium font-bold pt-8 pb-2 ">Strategic Iterative Feedback</h3>
               <p className="py-2">
               In the realm of web development, attention to detail is paramount. Throughout the entire process, I provide strategic iterative feedback, ensuring that your project stays on the cutting edge. My meticulous review process is designed not just to catch errors but to unearth every opportunity for improvement. By scrutinizing each element, we save valuable time, detecting and rectifying potential issues while they're still in their infancy. Real-time refinements are made, fostering continuous enhancement and paving the way for seamless integration of additional innovative ideas as your project evolves. This dynamic feedback loop guarantees that your project not only meets but exceeds your expectations, resulting in a web experience that is both flawless and innovative.</p>
@@ -132,6 +132,7 @@ export default function Home() {
                 height={"100%"}
                 layout="responsive"
                 src={web1}
+                alt=""
               />
               </a>
               </Link>
@@ -145,6 +146,7 @@ export default function Home() {
                 height={"100%"}
                 layout="responsive"
                 src={web2}
+                alt=""
               />
               </a>
               </Link>
@@ -156,6 +158,7 @@ export default function Home() {
                 height={"100%"}
                 layout="responsive"
                 src={web3}
+                alt=""
               />
             </div>
             <div className="basis-1/3 flex-1">
@@ -165,6 +168,7 @@ export default function Home() {
                 height={"100%"}
                 layout="responsive"
                 src={web4}
+                alt=""
               />
             </div>
             <div className="basis-1/3 flex-1">
@@ -176,6 +180,7 @@ export default function Home() {
                 height={"100%"}
                 layout="responsive"
                 src={web5}
+                alt=""
               />
               </a>
               </Link>
@@ -187,6 +192,7 @@ export default function Home() {
                 height={"100%"}
                 layout="responsive"
                 src={web6}
+                alt=""
               />
             </div>
           </div>

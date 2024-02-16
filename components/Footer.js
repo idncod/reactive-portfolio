@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <footer className="text-black text-center py-4">
       <Image src={web8} width={"100%"}
-                height={"100%"}/>
+                height={"100%"} alt=""/>
       <Link href="#">
         <p className="text-sm cursor-pointer">
           © {new Date().getFullYear()} idncod.

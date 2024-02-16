@@ -1,6 +1,6 @@
 
 import { useEffect, useState } from 'react';
-import { firestore } from './firebase';
+import { firestore } from '../utils/firebase';
 
 const BlogPost = ({ title, content, date }) => {
   console.log('Rendering BlogPost with props:', title, content, date);
